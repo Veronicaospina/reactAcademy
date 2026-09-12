@@ -1,0 +1,12 @@
+.footer {
+  background-color: #111111;
+}
+
+.footer__text {
+  padding: 30px;
+  font-size: small;
+}
+
+.footer__brand {
+  color: #e94560;
+}

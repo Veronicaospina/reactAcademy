@@ -1,0 +1,19 @@
+.button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.button--round {
+  border-radius: 50px;
+  background-color: #e94560;
+  border-style: none;
+  height: 50px;
+  width: 150px;
+  font-weight: bold;
+}
+
+.button--menu {
+  background-color: #1a1a2e;
+  border: none;
+  color: #c1c3c1;
+}

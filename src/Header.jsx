@@ -1,5 +1,5 @@
 import Button from "./Button";
-
+import './Header.css';
 
 function Header({refA,refB,refC}){
     const scrollInicio = () => {
@@ -13,13 +13,12 @@ function Header({refA,refB,refC}){
     };
     return(
         <div className="header">
-            <h3>ReactAcademy</h3>
-            <div className="navegacion">
-                <Button className="menu" texto="Inicio" onClick={scrollInicio} />
-                <Button className="menu" texto="Cursos" onClick={scrollCursos} />
-                <Button className="menu" texto="Nosotros" onClick={scrollNosotros} />
+            <h3 className="header__logo">ReactAcademy</h3>
+            <div className="header__nav">
+                <Button className="button--menu" texto="Inicio" onClick={scrollInicio} />
+                <Button className="button--menu" texto="Cursos" onClick={scrollCursos} />
+                <Button className="button--menu" texto="Nosotros" onClick={scrollNosotros} />
             </div>
-            
         </div>
     );
 }

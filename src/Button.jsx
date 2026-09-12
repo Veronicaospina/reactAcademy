@@ -1,6 +1,8 @@
+import './Button.css';
+
 function Button({ className, texto, onClick }) {
   return (
-    <button className={className} onClick={onClick} style={{ padding: '10px 20px', cursor: 'pointer' }}>
+    <button className={['button', className].filter(Boolean).join(' ')} onClick={onClick}>
       {texto}
     </button>
   );

@@ -1,0 +1,24 @@
+.students {
+  background-color: #1a1a2e;
+  padding-top: 60px;
+  padding-bottom: 100px;
+  display: grid;
+  place-items: center;
+  row-gap: 15px;
+}
+
+.students__title {
+  color: white;
+  font-size: 30px;
+}
+
+.students__panel {
+  border-radius: 30px;
+  background-color: #16213e;
+  height: 150px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  margin-top: 30px;
+}

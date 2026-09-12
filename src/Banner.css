@@ -1,0 +1,13 @@
+.banner {
+  display: grid;
+  place-items: center;
+  row-gap: 30px;
+  background-image: linear-gradient(to right, #191a2e, #0f335e);
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.banner__highlight {
+  color: #e94560;
+}
