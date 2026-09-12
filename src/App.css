@@ -1,0 +1,58 @@
+.banner {
+  display: grid;
+  place-items: center;
+  background-image: linear-gradient(to right, #191a2e , #0f335e);
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #1a1a2e;
+  width: 100%;
+  color: #e3425d;
+}
+
+.menu{
+  background-color: #1a1a2e;
+  border: none;
+}
+
+.courses h3{
+  color: #1c1c2f;
+}
+
+.cursos{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.uncurso{
+  box-shadow: 0 0 15px 3px #eff0f1;
+  padding: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+  border-radius: 5%;
+}
+
+body{
+  background-color: white;
+  
+}
+
+.courses{
+  background-color: white;
+}
+
+.students{
+  background-color: #1a1a2e;
+}
+
+.footer{
+  background-color: #111111;
+}
