@@ -1,13 +1,14 @@
 import Counter from "./Counter";
 
-function Students(){
+function Students({ ref }){
     return(
-        <div className="students">
+        <div ref={ref} className="students">
             <h3>Cuántos estudiantes van a inscribirse?</h3>
             <p>Usa los botones para ajustar el número</p>
             <div className="control">
                 <Counter />
             </div>
+            <p>estudiantes inscritos</p>
         </div>
     );
 }

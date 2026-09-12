@@ -1,14 +1,23 @@
 import Button from "./Button";
 
-function Header(){
-    const handleCargando = () => alert('Cargando');
+
+function Header({refA,refB,refC}){
+    const scrollInicio = () => {
+        refA.current?.scrollIntoView({ behavior: 'smooth' });
+    };
+    const scrollCursos = () => {
+        refB.current?.scrollIntoView({ behavior: 'smooth' });
+    };
+    const scrollNosotros = () => {
+        refC.current?.scrollIntoView({ behavior: 'smooth' });
+    };
     return(
         <div className="header">
             <h3>ReactAcademy</h3>
-            <div>
-                <Button className="menu" texto="Inicio" onClick={handleCargando} />
-                <Button className="menu" texto="Cursos" onClick={handleCargando} />
-                <Button className="menu" texto="Nosotros" onClick={handleCargando} />
+            <div className="navegacion">
+                <Button className="menu" texto="Inicio" onClick={scrollInicio} />
+                <Button className="menu" texto="Cursos" onClick={scrollCursos} />
+                <Button className="menu" texto="Nosotros" onClick={scrollNosotros} />
             </div>
             
         </div>

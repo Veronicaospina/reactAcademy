@@ -1,7 +1,7 @@
-function Courses(){
+function Courses({ ref }){
     
     return(
-        <div className="courses">
+        <div ref={ref} className="courses">
             <h3>Nuestros Cursos</h3>
             <p>Elige el camino que mejor se adapte a tí</p>
             <div className="cursos">
